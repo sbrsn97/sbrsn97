@@ -1,29 +1,76 @@
 # Hi, I'm Sabri
 
-I'm a backend-focused software engineer with a strong interest in computer science fundamentals and how software works under the hood.
+I'm a backend software engineer working primarily with **C#/.NET**, with a growing focus on **Go, distributed systems, systems fundamentals, and AI integrations**.
 
-Most of my work and learning currently revolve around backend development, .NET, APIs, databases, and system design. Alongside practical engineering, I also spend time strengthening my fundamentals by studying algorithms, solving LeetCode problems, and learning system design from books and interview-oriented resources.
+I build and operate production backend systems involving real-time data, messaging, concurrency, databases, observability, and external protocol integrations. I enjoy working on problems where performance, reliability, and understanding how things work under the hood actually matter.
 
-I enjoy going beyond surface-level usage and understanding the internals of the tools we use every day. That is one of the reasons I like platforms such as Codecrafters, where I can rebuild familiar systems and learn how they actually work behind the scenes.
+More recently, I've also been exploring the intersection of backend engineering and AI through **MCP, locally hosted LLMs, self-hosted inference, and agentic workflows**.
 
-## What I'm focused on
-- Backend engineering
-- .NET and API development
-- Databases and data-intensive systems
-- Algorithms and problem solving
-- System design and distributed systems
-- Rebuilding tools to understand their internals
+## What I work with
 
-## Selected projects
-- **codecrafters-shell-csharp** — A C# shell built for the Codecrafters Shell challenge, covering parsing, built-ins, redirections, PATH execution, and tab completion.
-- **MicroserviceInveonOrnek** — An e-commerce app with client chat, payment integration, and email confirmation workflows.
-- **SWE573** — A software design practice project exploring collaborative knowledge sharing and topic visualization.
+**Backend**
+- C# / .NET / ASP.NET Core
+- Go
+- REST APIs
+- RabbitMQ, NATS, Redis
+- SignalR / WebSockets
 
-## Currently learning
-- Writing better backend systems
-- Improving algorithmic thinking through practice
-- Studying system design from practical and interview-focused resources
-- Understanding real-world software by building simplified versions from scratch
+**Data & Infrastructure**
+- SQL Server, PostgreSQL
+- Docker, Linux
+- AWS
+- Grafana, InfluxDB
+- CI/CD
 
-## Philosophy
-I like learning both by building production-style applications and by studying the fundamentals behind them.
+**AI & Systems**
+- Model Context Protocol (MCP)
+- vLLM and local LLM inference
+- OpenAI-compatible APIs
+- Networking and protocol integration
+- Concurrency and distributed systems
+
+## Projects
+
+### [Rate Limiter Playground](https://github.com/sbrsn97/rate-limiter-playground)
+A configurable sliding-window rate limiter implemented in **C#/.NET**, with both in-memory and distributed Redis backends.
+
+- Atomic Redis operations using Lua
+- Middleware-based request limiting
+- Configurable policies
+- HTTP 429 handling
+- Dockerized Redis environment
+
+### HTTP/1.1 Server from Scratch
+Currently building an HTTP/1.1 server in **Go** directly on top of TCP sockets to better understand networking and HTTP internals.
+
+The project explores:
+- TCP connection handling
+- HTTP request parsing
+- Routing and response serialization
+- Persistent connections
+- Concurrency
+- Timeouts and connection lifecycle
+- Testing and benchmarking
+
+### Local LLM & Agentic Development
+Experimenting with self-hosted LLM infrastructure and AI-assisted development workflows using:
+
+- vLLM
+- OpenAI-compatible APIs
+- Qwen models
+- Local inference
+- MCP and structured tool integrations
+- Coding agents
+
+## Currently exploring
+
+- Building networked systems from first principles
+- Go for backend and systems-oriented development
+- Distributed systems and data-intensive architectures
+- Performance and concurrency
+- Practical LLM integrations for existing software systems
+
+## Elsewhere
+
+- [LinkedIn](https://www.linkedin.com/in/sbrsn)
+- [GitHub](https://github.com/sbrsn97)
